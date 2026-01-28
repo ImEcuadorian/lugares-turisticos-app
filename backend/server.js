@@ -22,7 +22,7 @@ app.use(cors());//access backend from any API
 
 //api endpoints
 
-app.use('/api/user',userRouter)
+app.use('/api/users',userRouter)
 app.use('/api/attractions',attractionRouter);
 app.get('/', (req, res) => {
     res.send('API WORKING');
